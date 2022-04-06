@@ -5,10 +5,18 @@
 
 print("Inserire un numero da usare per i calcoli:")
 num=int(input())
+
+numeroSommato=0
 somma=0
 
-for i in range(0,num):
-    nrPari=i*2
-    somma=somma+nrPari
+contatoreSomma=1
 
-print("Il risultato è", somma)
+while contatoreSomma<num:
+    numeroSommato=numeroSommato+1
+
+    if numeroSommato%2==0:
+        somma=somma+numeroSommato
+
+        contatoreSomma+=1
+
+print(somma)

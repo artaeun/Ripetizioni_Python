@@ -4,11 +4,7 @@
 # Ad esempio, se num=4, X sarà 0+2+4+6=12
 
 print("Inserire un numero da usare per i calcoli:")
+
 num=int(input())
-somma=0
 
-for i in range(0,num):
-    nrPari=i*2
-    somma=somma+nrPari
-
-print("Il risultato è", somma)
+print("Il risultato è", (num*(num-1)))

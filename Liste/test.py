@@ -1,7 +1,7 @@
-lunghezza=6
+lunghezza=8
 posizioneIniziale=0
 
-giorni=0
+giorni=1
 
 for i in range(0, lunghezza-3):
     giorni=giorni+1
